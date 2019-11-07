@@ -2,6 +2,10 @@
 
 - EditorConfig
 
+## Installation vscode extension
+
+- [VSCodeFileHeader](https://github.com/caizhengxin/vscodefileheader)
+
 ## Usage
 
 ```python
