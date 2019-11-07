@@ -1,5 +1,9 @@
 # VSCode FileHeader Template
 
+Extended ``VSCodeFileHeader`` additional template.
+
+## Support
+
 - EditorConfig
 
 ## Installation vscode extension
