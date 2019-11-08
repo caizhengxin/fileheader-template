@@ -1,10 +1,11 @@
 # VSCode FileHeader Template
 
-Extended ``VSCodeFileHeader`` additional template.
+Extended ``VSCodeFileHeader`` does not exist template.
 
 ## Support
 
 - EditorConfig
+- Makefile
 
 ## Installation vscode extension
 
@@ -16,7 +17,8 @@ Extended ``VSCodeFileHeader`` additional template.
 {
     "fileheader.custom_template_path": "xxx/template/",
     "fileheader.file_suffix_mapping": {
-        ".editorconfig": "EditorConfig"
+        ".editorconfig": "EditorConfig",
+        "makefile": "Makefile"
     }
 }
 ```
