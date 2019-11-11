@@ -6,6 +6,7 @@ Extended ``VSCodeFileHeader`` does not exist template.
 
 - EditorConfig
 - Makefile
+- Config
 
 ## Installation vscode extension
 
@@ -15,10 +16,27 @@ Extended ``VSCodeFileHeader`` does not exist template.
 
 ```python
 {
-    "fileheader.custom_template_path": "xxx/template/",
+    "fileheader.author": "JanKinCai",
     "fileheader.file_suffix_mapping": {
+        ".pyx": "Python",
+        ".pxd": "Python",
         ".editorconfig": "EditorConfig",
-        "makefile": "Makefile"
-    }
+        "makefile": "Makefile",
+        ".cfg": "Config",
+        ".ini": "Config",
+        ".conf": "Config",
+    },
+    "fileheader.ignore": [
+        "cookiecutter-django",
+        "cookiecutter-django-app",
+        "cookiecutter-package",
+        "cookiecutter-vscode",
+        "cookiecutter",
+        "*.tmpl"
+    ],
+    "fileheader.body": true,
+    "fileheader.save": true,
+    "fileheader.open": true,
+    "fileheader.custom_template_path": "/home/jankincai/template/"
 }
 ```
