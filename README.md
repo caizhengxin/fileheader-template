@@ -7,6 +7,7 @@ Extended ``VSCodeFileHeader`` does not exist template.
 - EditorConfig
 - Makefile
 - Config
+- setup.py
 
 ## Installation vscode extension
 
@@ -25,6 +26,7 @@ Extended ``VSCodeFileHeader`` does not exist template.
         ".cfg": "Config",
         ".ini": "Config",
         ".conf": "Config",
+        "setup.py": "Setup",
     },
     "fileheader.ignore": [
         "cookiecutter-django",
