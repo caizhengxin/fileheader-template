@@ -4,9 +4,12 @@ Extended ``VSCodeFileHeader`` does not exist template.
 
 ## Support
 
+- Cython
 - EditorConfig
 - Makefile
-- Config
+- *.conf
+- *.ini
+- *.cfg
 - setup.py
 
 ## Installation vscode extension
@@ -17,7 +20,7 @@ Extended ``VSCodeFileHeader`` does not exist template.
 
 ```python
 {
-    "fileheader.author": "JanKinCai",
+    "fileheader.author": "Your name",
     "fileheader.file_suffix_mapping": {
         ".pyx": "Python",
         ".pxd": "Python",
@@ -28,17 +31,18 @@ Extended ``VSCodeFileHeader`` does not exist template.
         ".conf": "Config",
         "setup.py": "Setup",
     },
-    "fileheader.ignore": [
-        "cookiecutter-django",
-        "cookiecutter-django-app",
-        "cookiecutter-package",
-        "cookiecutter-vscode",
-        "cookiecutter",
-        "*.tmpl"
-    ],
     "fileheader.body": true,
-    "fileheader.save": true,
-    "fileheader.open": true,
-    "fileheader.custom_template_path": "/home/jankincai/template/"
+    "fileheader.custom_template_path": "xxx/template/"
 }
+```
+
+## Custom header field
+
+```python
+{
+    "fileheader.other_config": {
+        "email": "Your email"
+    }
+}
+# Need custom header template
 ```
