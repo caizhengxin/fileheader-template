@@ -1,0 +1,10 @@
+{
+    ".pyx": "Python",
+    ".pxd": "Python",
+    ".editorconfig": "EditorConfig",
+    "makefile": "Makefile",
+    ".cfg": "Config",
+    ".ini": "Config",
+    ".conf": "Config",
+    "setup.py": "Setup"
+}
